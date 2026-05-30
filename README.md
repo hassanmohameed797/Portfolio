@@ -19,5 +19,3 @@ It showcases my skills, education, and projects, and highlights my passion for *
 - Flexbox & Grid for layout
 
 If you want to see the portfolio please click the link below
-
-https://hassanmohameed797.github.io/portfolio/
