@@ -17,7 +17,7 @@ It showcases my skills, education, and projects, and highlights my passion for *
 - HTML5
 - CSS3 (custom styling, responsive design)
 - Flexbox & Grid for layout
-- Javascript
+- Javascript (scroll animation)
 
 If you want to see the portfolio please click the link below
 
