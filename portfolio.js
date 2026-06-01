@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const fadeElements = document.querySelectorAll('.fade-in');
   
   const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
+    threshold: 0.01,
+    rootMargin: '0px 0px -10px 0px'
   };
 
   const observer = new IntersectionObserver(function(entries) {
@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   fadeElements.forEach(element => {
     element.style.opacity = '0';
-    element.style.transform = 'translateY(20px)';
-    element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    element.style.transform = 'translateY(12px)';
+    element.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
     observer.observe(element);
   });
 });
@@ -44,7 +44,6 @@ window.addEventListener('scroll', function() {
   let current = '';
   sections.forEach(section => {
     const sectionTop = section.offsetTop;
-    const sectionHeight = section.clientHeight;
     if (pageYOffset >= sectionTop - 200) {
       current = section.getAttribute('id');
     }
@@ -66,13 +65,13 @@ window.addEventListener('scroll', function() {
   
   cards.forEach((card, index) => {
     const cardTop = card.getBoundingClientRect().top;
-    const isVisible = cardTop < window.innerHeight * 0.8;
+    const isVisible = cardTop < window.innerHeight * 0.95;
     
     if (isVisible) {
       setTimeout(() => {
         card.style.opacity = '1';
         card.style.transform = 'translateY(0)';
-      }, index * 50);
+      }, index * 25);
     }
   });
 });
@@ -80,8 +79,8 @@ window.addEventListener('scroll', function() {
 // Initialize card animations
 document.querySelectorAll('.skill-category, .project-card, .contact-item').forEach(card => {
   card.style.opacity = '0';
-  card.style.transform = 'translateY(20px)';
-  card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+  card.style.transform = 'translateY(12px)';
+  card.style.transition = 'opacity 0.35s ease, transform 0.35s ease';
 });
 
 // ==================== PARALLAX EFFECT (OPTIONAL) ==================== 
