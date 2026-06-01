@@ -935,3 +935,75 @@ footer i {
     padding: 6px 12px;
   }
 }
+
+/* ==================== MOBILE & TOUCH IMPROVEMENTS ==================== */
+/* Make media responsive and improve touch targets */
+img, picture, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.nav-content {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-content::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-link {
+  flex: 0 0 auto; /* keep links from wrapping awkwardly when scrolling */
+}
+
+@media (max-width: 768px) {
+  .profile-badge {
+    width: 140px;
+    height: 140px;
+  }
+
+  .hero-button {
+    padding: 14px 16px;
+  }
+
+  .nav-link {
+    padding: 14px 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+
+  header {
+    padding: 18px 12px;
+  }
+
+  .header-content {
+    gap: 12px;
+  }
+
+  .hero-summary {
+    max-width: 100%;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-button {
+    width: 100%;
+  }
+
+  .social-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .section {
+    padding: 30px 12px;
+  }
+}
