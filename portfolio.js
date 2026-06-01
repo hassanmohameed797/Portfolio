@@ -31,7 +31,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     if (href !== '#' && document.querySelector(href)) {
       e.preventDefault();
       const target = document.querySelector(href);
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const navbar = document.querySelector('.navbar');
+      const navbarOffset = navbar ? navbar.getBoundingClientRect().height + 24 : 0;
+      const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navbarOffset;
+      window.scrollTo({ top: targetPosition, behavior: 'smooth' });
     }
   });
 });
