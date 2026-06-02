@@ -853,10 +853,9 @@ footer i {
   }
 
   .navbar {
-    position: static;
-    top: auto;
-    width: 100%;
-    margin: 8px auto 0;
+    top: 8px;
+    width: calc(100% - 16px);
+    margin-top: 8px;
     border-radius: 14px;
   }
 
@@ -925,10 +924,9 @@ footer i {
   }
 
   .navbar {
-    position: static;
-    top: auto;
-    width: 100%;
-    margin: 6px auto 0;
+    top: 6px;
+    width: calc(100% - 12px);
+    margin-top: 6px;
     border-radius: 12px;
   }
 
