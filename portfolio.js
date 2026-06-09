@@ -56,8 +56,8 @@ window.addEventListener('scroll', function() {
     link.style.borderBottomColor = 'transparent';
     link.style.color = '#8b949e';
     if (link.getAttribute('href').substring(1) === current) {
-      link.style.borderBottomColor = '#00d4ff';
-      link.style.color = '#00d4ff';
+      link.style.borderBottomColor = '#38bdf8';
+      link.style.color = '#ecfeff';
     }
   });
 });
@@ -85,15 +85,6 @@ document.querySelectorAll('.skill-category, .project-card, .contact-item').forEa
   card.style.transform = 'translateY(12px)';
   card.style.transition = 'opacity 0.35s ease, transform 0.35s ease';
 });
-
-// ==================== PARALLAX EFFECT (OPTIONAL) ==================== 
-const header = document.querySelector('header');
-if (header) {
-  window.addEventListener('scroll', function() {
-    const scrolled = window.pageYOffset;
-    header.style.transform = `translateY(${scrolled * 0.5}px)`;
-  });
-}
 
 // ==================== FORM INTERACTIONS ==================== 
 const contactForm = document.querySelector('.cta-button');
@@ -130,8 +121,8 @@ function createScrollToTopButton() {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background: linear-gradient(135deg, #00d4ff 0%, #58a6ff 100%);
-    color: #0d1117;
+    background: linear-gradient(135deg, #38bdf8 0%, #34d399 52%, #fb923c 100%);
+    color: #07111c;
     border: none;
     width: 45px;
     height: 45px;
@@ -140,7 +131,7 @@ function createScrollToTopButton() {
     cursor: pointer;
     display: none;
     z-index: 99;
-    box-shadow: 0 8px 25px rgba(0, 212, 255, 0.3);
+    box-shadow: 0 14px 30px rgba(56, 189, 248, 0.22);
     transition: all 0.3s ease;
     font-weight: bold;
   `;
@@ -177,5 +168,5 @@ window.addEventListener('load', function() {
   document.body.style.opacity = '1';
 });
 
-document.body.style.opacity = '0.95';
+document.body.style.opacity = '0.98';
 document.body.style.transition = 'opacity 0.5s ease';

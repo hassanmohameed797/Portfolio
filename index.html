@@ -3,8 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hassan Mohamed - CV & Portfolio</title>
+  <meta name="description" content="Hassan Mohamed - Computer Science student and cybersecurity-focused developer building secure web apps, automation, and offensive-security projects.">
+  <title>Hassan Mohamed | Cybersecurity & Full-Stack Portfolio</title>
   <link rel="stylesheet" href="portfolio.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -17,12 +21,16 @@
         </div>
         <div class="header-text">
           <h1>Hassan Mohamed</h1>
-          <p class="title">Computer Science Student | Blue Team Engineer</p>
+          <p class="title">Computer Science Student | Cybersecurity &amp; Full-Stack Developer</p>
           <p class="location"><i class="fas fa-map-marker-alt"></i> Alexandria, Egypt</p>
-          <p class="hero-summary">Building practical cybersecurity and software projects</p>
+          <p class="hero-summary">I build secure web apps, automation scripts, and offensive-security tooling with a practical, detail-driven approach.</p>
           <div class="hero-actions">
             <a class="hero-button primary" href="Hassan%20Mohamed%20CV.pdf" download>Download CV</a>
             <a class="hero-button secondary" href="#projects">View Projects</a>
+          </div>
+          <div class="hero-points">
+            <span>Cybersecurity + software</span>
+            <span>Alexandria University</span>
           </div>
         </div>
       </div>
@@ -62,7 +70,7 @@
         <div class="header-line"></div>
       </div>
       <p class="about-text">
-        I am a passionate <strong>Computer Science student</strong> at Alexandria University with strong expertise in programming, web development, and database management. Deeply motivated to pursue a career in <strong>cybersecurity</strong>, specifically <strong>Blue Team engineering</strong>. My goal is to protect systems, networks, and organizations from cyber threats by mastering <strong>defensive security strategies</strong>, <strong>incident response</strong>, and <strong>digital forensics</strong>.
+        I am a passionate <strong>Computer Science student</strong> at Alexandria University with strong expertise in programming, web development, and database management. Deeply motivated to pursue a career in <strong>cybersecurity</strong>, specifically <strong>Red Team engineering</strong>. My focus is on offensive security practices such as <strong>penetration testing</strong>, <strong>exploit development</strong>, and <strong>vulnerability research</strong> to help organizations uncover and remediate real-world weaknesses.
       </p>
     </section>
 
@@ -73,17 +81,78 @@
       </div>
       <div class="focus-grid">
         <div class="focus-card">
-          <h3>Blue Team Workflows</h3>
-          <p>Learning how analysts detect, investigate, and respond to real security events with practical tooling.</p>
+          <h3>Red Team Operations</h3>
+          <p>Developing realistic attack scenarios, adversary emulation, and coordinated red-team assessments.</p>
         </div>
         <div class="focus-card">
-          <h3>Linux Hardening</h3>
-          <p>Improving server security basics, permissions, and system hygiene for stronger defensive setups.</p>
+          <h3>Offensive Tooling &amp; Scripting</h3>
+          <p>Building automation, custom exploit scripts, and tooling to streamline penetration tests.</p>
         </div>
-        <div class="focus-card">
-          <h3>Detection Engineering</h3>
-          <p>Exploring how logs, alerts, and rules can be shaped into reliable security visibility.</p>
+      </div>
+    </section>
+
+    <section id="environments" class="section fade-in environment-section">
+      <div class="section-header">
+        <h2>Linux & Security Environments</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <div class="environment-banner">
+        <div class="environment-banner-copy">
+          <span class="section-kicker">Workstation Setup</span>
+          <h3>Two Linux environments I use for different jobs</h3>
+          <p>Arch and Ubuntu for system administration, shell workflows, and stable daily use. Kali Linux for offensive tooling, recon, and hands-on security testing.</p>
         </div>
+        <div class="environment-banner-stats">
+          <div class="environment-stat">
+            <span>02</span>
+            <p>Linux setups</p>
+          </div>
+          <div class="environment-stat">
+            <span>07+</span>
+            <p>Core tools</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="environment-grid">
+        <article class="environment-card environment-card-ops">
+          <div class="environment-top">
+            <div class="environment-icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <div>
+              <p class="environment-label">System setup & administration</p>
+              <h3>Arch Linux + Ubuntu</h3>
+            </div>
+          </div>
+          <p>Used for package management, shell workflows, permissions, service control, and the kind of hands-on system setup that makes Linux feel fast and precise.</p>
+          <div class="environment-badges">
+            <span class="skill-tag">Arch Linux</span>
+            <span class="skill-tag">Ubuntu</span>
+            <span class="skill-tag">Pacman</span>
+            <span class="skill-tag">systemd</span>
+          </div>
+        </article>
+
+        <article class="environment-card environment-card-pentest">
+          <div class="environment-top">
+            <div class="environment-icon">
+              <i class="fas fa-user-secret"></i>
+            </div>
+            <div>
+              <p class="environment-label">Pen testing workspace</p>
+              <h3>Kali Linux</h3>
+            </div>
+          </div>
+          <p>A dedicated environment for recon, web testing, and offensive tooling such as Burp Suite, Nmap, and Metasploit when I need a clean security lab.</p>
+          <div class="environment-badges">
+            <span class="skill-tag">Kali Linux</span>
+            <span class="skill-tag">Nmap</span>
+            <span class="skill-tag">Burp Suite</span>
+            <span class="skill-tag">Metasploit</span>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -92,9 +161,11 @@
         <h2>Technical Skills</h2>
         <div class="header-line"></div>
       </div>
+      <p class="skills-intro">A practical mix of software, web, database, Linux, and security skills. I focus on tools and knowledge that help me build useful systems and understand how they can be improved or attacked.</p>
       <div class="skills-grid">
         <div class="skill-category">
-          <h3><i class="fas fa-code"></i> Programming Languages</h3>
+          <h3><i class="fas fa-code"></i> Programming Foundations</h3>
+          <p class="skill-summary">Languages I use for automation, logic, scripting, and backend work.</p>
           <div class="skill-tags">
             <span class="skill-tag">Python</span>
             <span class="skill-tag">Java</span>
@@ -104,7 +175,8 @@
         </div>
 
         <div class="skill-category">
-          <h3><i class="fas fa-globe"></i> Web Development</h3>
+          <h3><i class="fas fa-globe"></i> Web Interfaces</h3>
+          <p class="skill-summary">Front-end tools and responsive design habits for clean, usable sites.</p>
           <div class="skill-tags">
             <span class="skill-tag">HTML5</span>
             <span class="skill-tag">CSS3</span>
@@ -114,7 +186,8 @@
         </div>
 
         <div class="skill-category">
-          <h3><i class="fas fa-database"></i> Databases</h3>
+          <h3><i class="fas fa-database"></i> Data & Databases</h3>
+          <p class="skill-summary">Database design and query work for structured applications and systems.</p>
           <div class="skill-tags">
             <span class="skill-tag">MySQL</span>
             <span class="skill-tag">Oracle</span>
@@ -124,15 +197,18 @@
 
         <div class="skill-category">
           <h3><i class="fas fa-shield-alt"></i> Cybersecurity</h3>
+          <p class="skill-summary">Offensive security concepts focused on testing, research, and attack paths.</p>
           <div class="skill-tags">
-            <span class="skill-tag">Defensive Security</span>
-            <span class="skill-tag">Threat Detection</span>
-            <span class="skill-tag">Network Security</span>
+            <span class="skill-tag">Offensive Security</span>
+            <span class="skill-tag">Penetration Testing</span>
+            <span class="skill-tag">Red Teaming</span>
+            <span class="skill-tag">Vulnerability Research</span>
           </div>
         </div>
 
         <div class="skill-category">
-          <h3><i class="fas fa-globe-americas"></i> Languages</h3>
+          <h3><i class="fas fa-globe-americas"></i> Communication</h3>
+          <p class="skill-summary">Languages that help me collaborate clearly and document work professionally.</p>
           <div class="skill-tags">
             <span class="skill-tag">Arabic (Native)</span>
             <span class="skill-tag">English (B2)</span>
@@ -140,7 +216,8 @@
         </div>
 
         <div class="skill-category">
-          <h3><i class="fas fa-handshake"></i> Soft Skills</h3>
+          <h3><i class="fas fa-handshake"></i> Professional Strengths</h3>
+          <p class="skill-summary">Soft skills that keep my work reliable in team and project settings.</p>
           <div class="skill-tags">
             <span class="skill-tag">Teamwork</span>
             <span class="skill-tag">Problem-Solving</span>
@@ -150,11 +227,12 @@
         </div>
 
         <div class="skill-category">
-          <h3><i class="fas fa-laptop-code"></i> Developer Tools</h3>
+          <h3><i class="fas fa-laptop-code"></i> Tools & Workflow</h3>
+          <p class="skill-summary">Daily tools for version control, Linux, containers, and development workflow.</p>
           <div class="skill-tags">
             <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">linux</span>
             <span class="skill-tag">Docker</span>
-            <span class="skill-tag">Linux</span>
           </div>
         </div>
       </div>
