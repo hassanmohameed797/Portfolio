@@ -3,387 +3,293 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Hassan Mohamed - Computer Science student and cybersecurity-focused developer building secure web apps, automation, and offensive-security projects.">
-  <title>Hassan Mohamed | Cybersecurity & Full-Stack Portfolio</title>
+  <meta name="description" content="Hassan Mohamed — Computer Science student building toward a career in cybersecurity, with hands-on projects in web, desktop, and database development.">
+  <title>Hassan Mohamed — Portfolio</title>
   <link rel="stylesheet" href="portfolio.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-  <header>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav class="navbar">
+    <div class="nav-content">
+      <a href="#top" class="nav-brand">Hassan Mohamed</a>
+      <div class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <header id="top">
     <div class="header-content">
-      <div class="header-left">
-        <div class="profile-badge">
-          <img src="me.jpeg" alt="Hassan Mohamed" class="profile-photo">
+      <div class="header-text">
+        <p class="eyebrow">Alexandria, Egypt</p>
+        <h1>Hassan Mohamed</h1>
+        <p class="title">Computer Science student, working toward a career in offensive-security engineering.</p>
+        <p class="hero-summary">I build web apps, desktop tools, and small games while sharpening the skills behind penetration testing and vulnerability research &mdash; Python and Java for logic, PHP and JavaScript for the web, MySQL and Oracle underneath.</p>
+        <div class="hero-actions">
+          <a class="hero-button primary" href="Hassan_Mohamed_CV.pdf" download>
+            <i class="fas fa-arrow-down"></i> Download CV
+          </a>
+          <a class="hero-button secondary" href="#projects">See my projects</a>
         </div>
-        <div class="header-text">
-          <h1>Hassan Mohamed</h1>
-          <p class="title">Computer Science Student | Cybersecurity &amp; Full-Stack Developer</p>
-          <p class="location"><i class="fas fa-map-marker-alt"></i> Alexandria, Egypt</p>
-          <p class="hero-summary">I build secure web apps, automation scripts, and offensive-security tooling with a practical, detail-driven approach.</p>
-          <div class="hero-actions">
-            <a class="hero-button primary" href="Hassan%20Mohamed%20CV.pdf" download>Download CV</a>
-            <a class="hero-button secondary" href="#projects">View Projects</a>
-          </div>
-          <div class="hero-points">
-            <span>Cybersecurity + software</span>
-            <span>Alexandria University</span>
-          </div>
+        <div class="header-socials">
+          <a href="mailto:hassanhameed153@gmail.com" class="social-btn" title="Email" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://wa.me/201285029334?text=Hi%20Hassan%2C%20I%20wanted%20to%20connect%20with%20you" class="social-btn" title="WhatsApp" aria-label="WhatsApp" target="_blank" rel="noopener">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="https://github.com/hassanmohameed797" class="social-btn" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/hassan-hameed-71498a197/" class="social-btn" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
         </div>
       </div>
-      <div class="header-right">
-        <a href="mailto:hassanhameed153@gmail.com" class="social-btn email" title="Email">
-          <i class="fas fa-envelope"></i>
-        </a>
-        <a href="https://wa.me/201285029334?text=Hi%20Hassan%2C%20I%20wanted%20to%20connect%20with%20you" class="social-btn phone" title="WhatsApp" target="_blank">
-          <i class="fas fa-phone"></i>
-        </a>
-        <a href="https://github.com/hassanmohameed797" class="social-btn github" title="GitHub">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/hassan-hameed-71498a197/" class="social-btn linkedin" title="LinkedIn">
-          <i class="fab fa-linkedin"></i>
-        </a>
+      <div class="header-photo">
+        <img src="me.jpeg" alt="Portrait of Hassan Mohamed" class="profile-photo">
       </div>
     </div>
   </header>
 
-  <nav class="navbar">
-    <div class="nav-content">
-      <a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a>
-      <a href="#skills" class="nav-link"><i class="fas fa-code"></i> Skills</a>
-      <a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> Experience</a>
-      <a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> Projects</a>
-      <a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a>
-      <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
-    </div>
-  </nav>
+  <main id="main">
 
-  <main>
-
-    <section id="about" class="section fade-in">
+    <section id="about" class="section">
       <div class="section-header">
-        <h2>About Me</h2>
-        <div class="header-line"></div>
+        <h2>About</h2>
       </div>
-      <p class="about-text">
-        I am a passionate <strong>Computer Science student</strong> at Alexandria University with strong expertise in programming, web development, and database management. Deeply motivated to pursue a career in <strong>cybersecurity</strong>, specifically <strong>Red Team engineering</strong>. My focus is on offensive security practices such as <strong>penetration testing</strong>, <strong>exploit development</strong>, and <strong>vulnerability research</strong> to help organizations uncover and remediate real-world weaknesses.
-      </p>
-    </section>
-
-    <section id="focus" class="section fade-in">
-      <div class="section-header">
-        <h2>Currently Focused On</h2>
-        <div class="header-line"></div>
-      </div>
-      <div class="focus-grid">
-        <div class="focus-card">
-          <h3>Red Team Operations</h3>
-          <p>Developing realistic attack scenarios, adversary emulation, and coordinated red-team assessments.</p>
-        </div>
-        <div class="focus-card">
-          <h3>Offensive Tooling &amp; Scripting</h3>
-          <p>Building automation, custom exploit scripts, and tooling to streamline penetration tests.</p>
+      <div class="about-grid">
+        <p class="about-text">
+          I'm a Computer Science student at Alexandria University with a practical grounding in programming, web development, and database management. My focus going forward is <strong>cybersecurity</strong> &mdash; specifically <strong>red-team engineering</strong>: penetration testing, exploit development, and vulnerability research aimed at finding the real-world weaknesses organizations need to fix.
+        </p>
+        <div class="focus-list">
+          <div class="focus-card">
+            <h3>Red team operations</h3>
+            <p>Learning to build realistic attack scenarios and adversary emulation for coordinated security assessments.</p>
+          </div>
+          <div class="focus-card">
+            <h3>Offensive tooling &amp; scripting</h3>
+            <p>Writing automation and small exploit scripts that streamline penetration-testing workflows.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="environments" class="section fade-in environment-section">
+    <section id="environments" class="section">
       <div class="section-header">
-        <h2>Linux & Security Environments</h2>
-        <div class="header-line"></div>
+        <h2>Linux &amp; security setups</h2>
       </div>
-
-      <div class="environment-banner">
-        <div class="environment-banner-copy">
-          <span class="section-kicker">Workstation Setup</span>
-          <h3>Two Linux environments I use for different jobs</h3>
-          <p>Arch and Ubuntu for system administration, shell workflows, and stable daily use. Kali Linux for offensive tooling, recon, and hands-on security testing.</p>
-        </div>
-        <div class="environment-banner-stats">
-          <div class="environment-stat">
-            <span>02</span>
-            <p>Linux setups</p>
-          </div>
-          <div class="environment-stat">
-            <span>07+</span>
-            <p>Core tools</p>
-          </div>
-        </div>
-      </div>
-
+      <p class="section-intro">Two environments I move between depending on the job &mdash; one for stable daily work, one for hands-on security testing.</p>
       <div class="environment-grid">
-        <article class="environment-card environment-card-ops">
+        <article class="environment-card">
           <div class="environment-top">
-            <div class="environment-icon">
-              <i class="fas fa-server"></i>
-            </div>
-            <div>
-              <p class="environment-label">System setup & administration</p>
-              <h3>Arch Linux + Ubuntu</h3>
-            </div>
+            <i class="fas fa-server"></i>
+            <h3>Arch Linux &amp; Ubuntu</h3>
           </div>
-          <p>Used for package management, shell workflows, permissions, service control, and the kind of hands-on system setup that makes Linux feel fast and precise.</p>
-          <div class="environment-badges">
-            <span class="skill-tag">Arch Linux</span>
-            <span class="skill-tag">Ubuntu</span>
-            <span class="skill-tag">Pacman</span>
-            <span class="skill-tag">systemd</span>
+          <p>Package management, shell workflows, permissions, and service control &mdash; the daily-driver setup for system administration.</p>
+          <div class="tag-row">
+            <span class="tag">Arch Linux</span>
+            <span class="tag">Ubuntu</span>
+            <span class="tag">systemd</span>
           </div>
         </article>
-
-        <article class="environment-card environment-card-pentest">
+        <article class="environment-card">
           <div class="environment-top">
-            <div class="environment-icon">
-              <i class="fas fa-user-secret"></i>
-            </div>
-            <div>
-              <p class="environment-label">Pen testing workspace</p>
-              <h3>Kali Linux</h3>
-            </div>
+            <i class="fas fa-user-secret"></i>
+            <h3>Kali Linux</h3>
           </div>
-          <p>A dedicated environment for recon, web testing, and offensive tooling such as Burp Suite, Nmap, and Metasploit when I need a clean security lab.</p>
-          <div class="environment-badges">
-            <span class="skill-tag">Kali Linux</span>
-            <span class="skill-tag">Nmap</span>
-            <span class="skill-tag">Burp Suite</span>
-            <span class="skill-tag">Metasploit</span>
+          <p>A dedicated space for reconnaissance, web testing, and offensive tooling when I need a clean security lab.</p>
+          <div class="tag-row">
+            <span class="tag">Nmap</span>
+            <span class="tag">Burp Suite</span>
+            <span class="tag">Metasploit</span>
           </div>
         </article>
       </div>
     </section>
 
-    <section id="skills" class="section fade-in">
+    <section id="skills" class="section">
       <div class="section-header">
-        <h2>Technical Skills</h2>
-        <div class="header-line"></div>
+        <h2>Skills</h2>
       </div>
-      <p class="skills-intro">A practical mix of software, web, database, Linux, and security skills. I focus on tools and knowledge that help me build useful systems and understand how they can be improved or attacked.</p>
+      <p class="section-intro">A practical mix of programming, web, database, and Linux fundamentals &mdash; the tools I use to build systems, and increasingly, to understand how they can be tested.</p>
       <div class="skills-grid">
         <div class="skill-category">
-          <h3><i class="fas fa-code"></i> Programming Foundations</h3>
-          <p class="skill-summary">Languages I use for automation, logic, scripting, and backend work.</p>
-          <div class="skill-tags">
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">Java</span>
-            <span class="skill-tag">JavaScript</span>
-            <span class="skill-tag">PHP</span>
+          <h3>Programming</h3>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">PHP</span>
           </div>
         </div>
-
         <div class="skill-category">
-          <h3><i class="fas fa-globe"></i> Web Interfaces</h3>
-          <p class="skill-summary">Front-end tools and responsive design habits for clean, usable sites.</p>
-          <div class="skill-tags">
-            <span class="skill-tag">HTML5</span>
-            <span class="skill-tag">CSS3</span>
-            <span class="skill-tag">JavaScript</span>
-            <span class="skill-tag">Responsive Design</span>
+          <h3>Web development</h3>
+          <div class="tag-row">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">Responsive design</span>
           </div>
         </div>
-
         <div class="skill-category">
-          <h3><i class="fas fa-database"></i> Data & Databases</h3>
-          <p class="skill-summary">Database design and query work for structured applications and systems.</p>
-          <div class="skill-tags">
-            <span class="skill-tag">MySQL</span>
-            <span class="skill-tag">Oracle</span>
-            <span class="skill-tag">Database Design</span>
+          <h3>Databases</h3>
+          <div class="tag-row">
+            <span class="tag">MySQL</span>
+            <span class="tag">Oracle</span>
           </div>
         </div>
-
         <div class="skill-category">
-          <h3><i class="fas fa-shield-alt"></i> Cybersecurity</h3>
-          <p class="skill-summary">Offensive security concepts focused on testing, research, and attack paths.</p>
-          <div class="skill-tags">
-            <span class="skill-tag">Offensive Security</span>
-            <span class="skill-tag">Penetration Testing</span>
-            <span class="skill-tag">Red Teaming</span>
-            <span class="skill-tag">Vulnerability Research</span>
+          <h3>Tools &amp; workflow</h3>
+          <div class="tag-row">
+            <span class="tag">GitHub</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Linux</span>
           </div>
         </div>
-
         <div class="skill-category">
-          <h3><i class="fas fa-globe-americas"></i> Communication</h3>
-          <p class="skill-summary">Languages that help me collaborate clearly and document work professionally.</p>
-          <div class="skill-tags">
-            <span class="skill-tag">Arabic (Native)</span>
-            <span class="skill-tag">English (B2)</span>
+          <h3>Languages</h3>
+          <div class="tag-row">
+            <span class="tag">Arabic (native)</span>
+            <span class="tag">English (B2)</span>
           </div>
         </div>
-
         <div class="skill-category">
-          <h3><i class="fas fa-handshake"></i> Professional Strengths</h3>
-          <p class="skill-summary">Soft skills that keep my work reliable in team and project settings.</p>
-          <div class="skill-tags">
-            <span class="skill-tag">Teamwork</span>
-            <span class="skill-tag">Problem-Solving</span>
-            <span class="skill-tag">Communication</span>
-            <span class="skill-tag">Time Management</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <h3><i class="fas fa-laptop-code"></i> Tools & Workflow</h3>
-          <p class="skill-summary">Daily tools for version control, Linux, containers, and development workflow.</p>
-          <div class="skill-tags">
-            <span class="skill-tag">GitHub</span>
-            <span class="skill-tag">linux</span>
-            <span class="skill-tag">Docker</span>
+          <h3>Working style</h3>
+          <div class="tag-row">
+            <span class="tag">Teamwork</span>
+            <span class="tag">Problem-solving</span>
+            <span class="tag">Time management</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="experience" class="section fade-in">
+    <section id="projects" class="section">
       <div class="section-header">
-        <h2>Experience & Achievements</h2>
-        <div class="header-line"></div>
-      </div>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <h3>Computer Science Student</h3>
-            <p class="timeline-date">Alexandria University · 2023 - Present</p>
-            <p>Actively developing skills in software development, cybersecurity, and full-stack web development. Completed multiple hands-on projects involving database management, desktop applications, and web platforms.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section fade-in">
-      <div class="section-header">
-        <h2>Featured Projects</h2>
-        <div class="header-line"></div>
+        <h2>Projects</h2>
       </div>
       <div class="projects-grid">
-        
-        <div class="project-card">
-          <div class="project-header">
-            <h3>Rock-Paper-Scissors Game</h3>
-            <div class="tech-tags">
-              <span class="tech">Python</span>
-            </div>
+        <article class="project-card">
+          <h3>Car Sales Website</h3>
+          <p>A responsive site for showcasing and selling cars online, built with attention to layout and interaction.</p>
+          <div class="tag-row">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
           </div>
-          <p>Interactive command-line game with score tracking, replay options, and an engaging user interface for competitive gameplay.</p>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <h3>Car Sales Website</h3>
-            <div class="tech-tags">
-              <span class="tech">HTML</span>
-              <span class="tech">CSS</span>
-              <span class="tech">JavaScript</span>
-            </div>
+        </article>
+        <article class="project-card">
+          <h3>Student Information System</h3>
+          <p>A PHP web application backed by MySQL for managing student IDs, courses, and grades.</p>
+          <div class="tag-row">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
           </div>
-          <p>Fully responsive website for showcasing and selling cars online with modern design and interactive features for customer engagement.</p>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <h3>Student Information System</h3>
-            <div class="tech-tags">
-              <span class="tech">PHP</span>
-              <span class="tech">MySQL</span>
-            </div>
+        </article>
+        <article class="project-card">
+          <h3>Student Management System</h3>
+          <p>A JavaFX desktop application connected to an Oracle database for managing student records and academic data.</p>
+          <div class="tag-row">
+            <span class="tag">JavaFX</span>
+            <span class="tag">Oracle</span>
           </div>
-          <p>Web application for managing student IDs, courses, and grades with secure authentication and efficient database queries.</p>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <h3>College System Management</h3>
-            <div class="tech-tags">
-              <span class="tech">Java</span>
-            </div>
+        </article>
+        <article class="project-card">
+          <h3>College System Management</h3>
+          <p>A Java application for organizing courses, lectures, and teacher assignments.</p>
+          <div class="tag-row">
+            <span class="tag">Java</span>
           </div>
-          <p>Desktop application for organizing courses, lectures, and teacher assignments with comprehensive management features.</p>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <h3>Number Guessing Game</h3>
-            <div class="tech-tags">
-              <span class="tech">Python</span>
-            </div>
+        </article>
+        <article class="project-card">
+          <h3>Number Guessing Game</h3>
+          <p>A command-line Python game with difficulty levels, hints, scoring, and input validation for a smooth play experience.</p>
+          <div class="tag-row">
+            <span class="tag">Python</span>
           </div>
-          <p>Interactive command-line game featuring difficulty levels, intelligent hints, and sophisticated scoring system for entertainment value.</p>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <h3>Student Management System</h3>
-            <div class="tech-tags">
-              <span class="tech">JavaFX</span>
-              <span class="tech">Oracle</span>
-            </div>
+        </article>
+        <article class="project-card">
+          <h3>Rock–Paper–Scissors Game</h3>
+          <p>An interactive command-line game with score tracking, replay options, and input validation.</p>
+          <div class="tag-row">
+            <span class="tag">Python</span>
           </div>
-          <p>Desktop application with GUI linked to Oracle database for comprehensive management of student records and academic data.</p>
-        </div>
-
+        </article>
       </div>
     </section>
 
-    <section id="education" class="section fade-in">
+    <section id="education" class="section">
       <div class="section-header">
         <h2>Education</h2>
-        <div class="header-line"></div>
       </div>
       <div class="education-item">
         <div class="education-header">
           <h3>Bachelor of Computer Science</h3>
-          <span class="education-date">Expected Graduation: 2028</span>
+          <span class="education-date">Expected 2028</span>
         </div>
-        <p class="education-institution">Alexandria University – Faculty of Science</p>
-        <p class="education-department">Department of Computer Science & Mathematics</p>
-        <p class="education-details">Currently in Second Year | GPA: Very good</p>
+        <p class="education-institution">Alexandria University &mdash; Faculty of Science</p>
+        <p class="education-department">Department of Computer Science &amp; Mathematics</p>
+        <p class="education-details">Second year, in progress.</p>
       </div>
     </section>
 
-    <section id="contact" class="section fade-in">
+    <section id="contact" class="section">
       <div class="section-header">
-        <h2>Get In Touch</h2>
-        <div class="header-line"></div>
+        <h2>Get in touch</h2>
       </div>
-      <div class="contact-container">
-        <div class="contact-info">
-          <div class="contact-item">
-            <i class="fas fa-envelope"></i>
-            <div>
-              <h4>Email</h4>
-              <a href="mailto:hassanhameed153@gmail.com">hassanhameed153@gmail.com</a>
-            </div>
+      <p class="section-intro">Open to internships, collaborations, and conversations about security or software.</p>
+      <div class="contact-grid">
+        <a href="mailto:hassanhameed153@gmail.com" class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <span>hassanhameed153@gmail.com</span>
           </div>
-          <div class="contact-item">
-            <i class="fas fa-phone"></i>
-            <div>
-              <h4>Phone</h4>
-              <a href="tel:01285029334">+20 128 502 9334</a>
-            </div>
+        </a>
+        <a href="tel:+201285029334" class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h4>Phone</h4>
+            <span>+20 128 502 9334</span>
           </div>
-          <div class="contact-item">
-            <i class="fas fa-map-marker-alt"></i>
-            <div>
-              <h4>Location</h4>
-              <p>Alexandria, Egypt</p>
-            </div>
+        </a>
+        <div class="contact-item contact-item-static">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h4>Location</h4>
+            <span>Alexandria, Egypt</span>
           </div>
         </div>
-
-        <button class="cta-button" onclick="window.location.href='mailto:hassanhameed153@gmail.com'">Send Message</button>
       </div>
     </section>
 
   </main>
 
   <footer>
-    <p>&copy; 2026 Hassan Mohamed • Cybersecurity-Focused CV & Portfolio</p>
+    <p>&copy; 2026 Hassan Mohamed</p>
+    <div class="footer-socials">
+      <a href="https://github.com/hassanmohameed797" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/hassan-hameed-71498a197/" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:hassanhameed153@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
   </footer>
+
+  <button class="scroll-to-top" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
   <script src="portfolio.js"></script>
 
