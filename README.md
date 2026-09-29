@@ -1,24 +1,16 @@
-About
-This is my personal portfolio website built with **HTML & CSS**.  
-It showcases my skills, education, and projects, and highlights my passion for **cybersecurity** and my career goal of becoming a **Blue Team Engineer**.
+# Hassan Mohamed — Portfolio
 
-## 🚀 Features
-- Dark mode with glowing **cybersecurity theme**
-- Responsive design (works on desktop & mobile)
-- Sections for:
-  - About Me
-  - Skills
-  - Education
-  - Projects
-  - Contact
-- Integrated personal photo with glowing effect
+Personal portfolio of a cybersecurity student aiming to become a **red-team / penetration tester**.
 
-## 🛠 Technologies Used
-- HTML5
-- CSS3 (custom styling, responsive design)
-- Flexbox & Grid for layout
-- Javascript (scroll animation)
+## Sections
+Cover, About, Education, Experience, Skills (with Linux & security setups), Projects, Services, How I work, Achievements, Testimonials, Contact (call to action), Thank you.
 
-If you want to see the portfolio please click the link below
+## Tech
+HTML5, CSS3 (Grid and Flexbox, responsive), vanilla JavaScript (scroll reveal, active nav, mobile menu).
 
-https://hassanmohameed797.github.io/Portfolio/
+## Before publishing
+- Keep `Hassan_Mohamed_CV.pdf` and `me.jpeg` in the same folder as `index.html`.
+- Replace the Khamsat and Mostaql links in the Services section with your profile URLs.
+- Add real testimonials when you have them.
+
+Live: https://hassanmohameed797.github.io/Portfolio/

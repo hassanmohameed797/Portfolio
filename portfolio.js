@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // ==================== REVEAL ON SCROLL (single lightweight observer) ====================
   const revealTargets = document.querySelectorAll(
-    '.about-text, .focus-card, .environment-card, .skill-category, .project-card, .education-item, .contact-item, .section-header'
+    '.about-text, .focus-card, .environment-card, .skill-category, .project-card, .education-item, .experience-item, .service-card, .step, .achievement-card, .testimonial-empty, .contact-item, .section-header'
   );
   revealTargets.forEach(el => el.classList.add('reveal'));
 
